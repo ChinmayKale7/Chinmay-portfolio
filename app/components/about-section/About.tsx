@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect } from "react";
 import Link from "next/link";
 import { Syne } from "next/font/google";
@@ -40,21 +41,6 @@ export default function About() {
             From building a tomato disease detection model to analyzing datasets with Python, SQL, and Power BI,
             I am always exploring how AI can improve lives and decision-making.
             I also enjoy designing clean, user-friendly interfaces using Streamlit.
-          </AnimatedBody>
-          <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
-            Each challenge is unique so I ensure that I learn and grow through
-            each one ensuring that I not only put in my best but also deliver
-            solutions that businesses are proud to call their own. Wanna learn
-            more? Here&apos;s <br className="hidden md:block" />
-            <Link
-              className="underline"
-              href={
-                "https://drive.google.com/file/d/1Rd-IB_5pxsGj4RDtHjEggPB392ND29xB/view?usp=sharing"
-              }
-            >
-              my résumè
-            </Link>
-            .
           </AnimatedBody>
         </div>
         <div className="grid grid-cols-1 gap-4">
